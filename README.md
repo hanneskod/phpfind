@@ -52,11 +52,11 @@ Command line tool to search for php classes in a directory hierarchy.
 
 ## Installation using composer
 
-Simply add a dependency on `hanneskod\phpfind` to your project's `composer.json`.
+Simply add a dependency on `hanneskod/phpfind` to your project's `composer.json`.
 If in doubt se the composer [documentation](http://getcomposer.org/).
 
 For a system-wide installation via run:
 
-    composer global require hanneskod\phpfind
+    composer global require 'hanneskod/phpfind:*'
 
 Make sure you have `~/.composer/vendor/bin/` in your path.
