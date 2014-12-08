@@ -29,7 +29,7 @@ class Command extends \Symfony\Component\Console\Command\Command
             ->addArgument(
                 'directory',
                 InputArgument::OPTIONAL | InputArgument::IS_ARRAY,
-                'Directory to search',
+                'One or multiple directory(ies) to search',
                 [getcwd()]
             )
             ->addOption(

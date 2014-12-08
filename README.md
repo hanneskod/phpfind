@@ -10,7 +10,7 @@ Command line tool to search for php classes in a directory hierarchy.
      phpfind [--not-dir[="..."]] [--file-name[="..."]] [--not-file-name[="..."]] [--contains[="..."]] [--not-contains[="..."]] [--path[="..."]] [--not-path[="..."]] [--size[="..."]] [--modified[="..."]] [--depth[="..."]] [--type[="..."]] [--not-type[="..."]] [--namespace[="..."]] [--not-namespace[="..."]] [--def-name[="..."]] [--not-def-name[="..."]] [--abstract] [--not-abstract] [--final] [--not-final] [--instantiable] [--not-instantiable] [--interface] [--not-interface] [--trait] [--not-trait] [--class] [--not-class] [directory1] ... [directoryN]
 
     Arguments:
-     directory             Directory to search (default: current working directory)
+     directory             One or multiple directory(ies) to search (default: current working directory)
 
     Options:
      --not-dir             Directory to ignore (multiple values allowed)
