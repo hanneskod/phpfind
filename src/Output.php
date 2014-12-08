@@ -9,9 +9,20 @@
 
 namespace hanneskod\phpfind;
 
+use Symfony\Component\Console\Output\OutputInterface;
+use hanneskod\classtools\Iterator\ClassIterator;
+
 /**
  * @author Hannes Forsgård <hannes.forsgard@fripost.org>
  */
-interface Exception
+interface Output
 {
+    /**
+     * Output iterator to interface
+     *
+     * @param  OutputInterface $interface
+     * @param  ClassIterator   $classIterator
+     * @return void
+     */
+    public function output(OutputInterface $interface, ClassIterator $classIterator);
 }

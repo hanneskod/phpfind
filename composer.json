@@ -1,7 +1,7 @@
 {
     "name": "hanneskod/phpfind",
-    "description": "Search for php classes in a directory hierarchy",
-    "keywords": [""],
+    "description": "Command line tool to search for php classes in a directory hierarchy",
+    "keywords": ["phpfind", "class scanner", "directory scanner"],
     "homepage": "https://github.com/hanneskod/phpfind",
     "type": "library",
     "license": "WTFPL",
@@ -22,6 +22,7 @@
     "require": {
         "php": ">=5.5",
         "hanneskod/classtools": "~1.0",
-        "symfony/console": "~2.0"
+        "symfony/console": "~2.0",
+        "symfony/finder": "~2.3"
     }
 }
