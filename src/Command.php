@@ -1,11 +1,4 @@
 <?php
-/**
- * This program is free software. It comes without any warranty, to
- * the extent permitted by applicable law. You can redistribute it
- * and/or modify it under the terms of the Do What The Fuck You Want
- * To Public License, Version 2, as published by Sam Hocevar. See
- * http://www.wtfpl.net/ for more details.
- */
 
 namespace hanneskod\phpfind;
 
@@ -17,7 +10,7 @@ use Symfony\Component\Finder\Finder;
 use hanneskod\classtools\Iterator\ClassIterator;
 
 /**
- * @author Hannes Forsgård <hannes.forsgard@fripost.org>
+ * Basic phpfind command
  */
 class Command extends \Symfony\Component\Console\Command\Command
 {
@@ -207,7 +200,7 @@ class Command extends \Symfony\Component\Console\Command\Command
     /**
      * @param  InputInterface  $input
      * @param  OutputInterface $output
-     * @return void
+     * @return null
      */
     public function execute(InputInterface $input, OutputInterface $output)
     {

@@ -1,10 +1,9 @@
-# hanneskod/phpfind
+# PhpFind
 
 [![Packagist Version](https://img.shields.io/packagist/v/hanneskod/phpfind.svg?style=flat-square)](https://packagist.org/packages/hanneskod/phpfind)
 [![Dependency Status](https://img.shields.io/gemnasium/hanneskod/phpfind.svg?style=flat-square)](https://gemnasium.com/hanneskod/phpfind)
 
-Command line tool to search for php classes in a directory hierarchy.
-
+Command line tool to search for php classes in a directory hierarchy
 
     Usage:
      phpfind [--not-dir[="..."]] [--file-name[="..."]] [--not-file-name[="..."]] [--contains[="..."]] [--not-contains[="..."]] [--path[="..."]] [--not-path[="..."]] [--size[="..."]] [--modified[="..."]] [--depth[="..."]] [--type[="..."]] [--not-type[="..."]] [--namespace[="..."]] [--not-namespace[="..."]] [--def-name[="..."]] [--not-def-name[="..."]] [--abstract] [--not-abstract] [--final] [--not-final] [--instantiable] [--not-instantiable] [--interface] [--not-interface] [--trait] [--not-trait] [--class] [--not-class] [directory1] ... [directoryN]
@@ -57,6 +56,12 @@ If in doubt se the composer [documentation](http://getcomposer.org/).
 
 For a system-wide installation via run:
 
-    composer global require 'hanneskod/phpfind:*'
+    composer global require hanneskod/phpfind
 
 Make sure you have `~/.composer/vendor/bin/` in your path.
+
+Credits
+-------
+PhpFind is covered under the [WTFPL](http://www.wtfpl.net/)
+
+@author Hannes Forsgård (hannes.forsgard@fripost.org)
